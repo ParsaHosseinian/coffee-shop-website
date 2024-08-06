@@ -91,7 +91,7 @@ App style
     
 }
 .nav__contact-button {
-
+    display: none;
 }
 .nav__hamburger-btn {
 
