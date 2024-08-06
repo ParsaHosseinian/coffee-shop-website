@@ -85,7 +85,7 @@ App style
 
 }
 .mobile-menu__link {
-
+    display: none;
 }
 .mobile-menu__contact-button {
     display: none;
