@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: "koodak";
+    background-image: url(../images/site-bg.jpg);
+    background-size: 100%;
+    
+}
+/* 
+
+Reset styles
+
+*/
+a {
+    text-decoration: none;
+}
+/* 
+
+Helper class
+
+*/
+
+/* 
+
+App style
+
+*/
+
+
+
+
+.bg-glass {
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header {
+
+}
+.nav {
+
+}
+.nav__logo-section {
+
+}
+.app-logo {
+    margin: 0 auto;
+}
+.app-logo__svg {
+    transform: scale(0.25);
+    margin-top: -6rem;
+}
+.menu {
+    display: none;
+}
+.menu__item {
+
+}
+.menu__link {
+
+}
+.mobile-menu {
+
+}
+.mobile-menu__ulist {
+
+}
+.mobile-menu__item {
+
+}
+.mobile-menu__link {
+
+}
+.mobile-menu__contact-button {
+
+}
+.nav__contact-button {
+    display: none;
+}
+.nav__hamburger-btn {
+
+}
+.nav__hamburger-btn-line {
+
+}
