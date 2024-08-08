@@ -1,5 +1,6 @@
 :root {
-    
+    --white: #fff;
+    --primary-color: #3c2010;    
 }
 html {
     box-sizing: border-box;
@@ -16,7 +17,8 @@ body {
     font-family: "koodak";
     background-image: url(../images/site-bg.jpg);
     background-size: 100%;
-    
+    transition: all 300ms ease;
+    /* background: rgba(19, 19, 23, 0.9); */
 }
 /* 
 
@@ -70,7 +72,10 @@ App style
 
 }
 .app-logo {
-    margin: 0 auto;
+    text-align: center;
+}
+.app-logo__name {
+    color: var(--primary-color);
 }
 .app-logo__svg {
     transform: scale(0.25);
@@ -78,26 +83,44 @@ App style
 }
 .mobile-menu {
     position: fixed;
-    top: 59%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(to right,#444444, #000000);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     min-width: 30rem;
     padding: 4rem;
     border-radius: 1rem;
+    animation: 0.5s drop;
+}
+@keyframes drop {
+    0%{
+      top: -100px;
+    }
+    100%{
+      top: 58%;
+    }
+  }
+
+.mobile-menu--active {
+    display: flex;
 }
 .mobile-menu__contact-button {
-    color: #fff;
+    color: var(--white);
     font-size: 4.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 .mobile-menu__link {
     color: rgba(240, 248, 255, 0.882);
     font-size: 2.3rem;
     margin-bottom: 1rem;
+    transition: all 90ms ease;
+}
+.mobile-menu__link:hover {
+    color: var(--white);
+    transform: scale(1.03);
 }
 .nav__hamburger-btn {
     width: 9rem;
