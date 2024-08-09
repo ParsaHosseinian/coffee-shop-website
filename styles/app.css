@@ -37,7 +37,8 @@ Helper class
     background: rgba( 255, 255, 255, 0.4 );
     /* backdrop-filter: blur( 9px ); */
     -webkit-backdrop-filter: blur( 9px );
-    border-radius: 1.7rem;
+    border-radius: 1.3rem;
+    padding: 0.5rem;
 }
 
 
@@ -185,6 +186,7 @@ Main
 }
 .left-head-section__head-title {
     color: var(--primary-color);
+    opacity: 1;
     font-size: 3rem;
     margin-top: -1.5rem;
     line-height: 1.5;
@@ -196,6 +198,9 @@ Main
     margin-bottom: -1.5rem;
     font-size: 4rem;
     word-spacing: -0.5rem;
+}
+.left-head-section__sub {
+    opacity: 0.7;
 }
 .left-head-section__menu-btn {
     font-size: 2rem;
@@ -218,6 +223,9 @@ Main
     max-height: 6rem;
     display: flex;
     flex-basis: 4rem;
+}
+.bg-white-glass--modifier {
+    padding: 0.6rem;
 }
 .right-head-section {
 

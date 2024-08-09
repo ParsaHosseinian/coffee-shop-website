@@ -1,12 +1,4 @@
 @media (min-width: 576px) {
-    /* .header {
-        display: flex;
-    }
-    .main {
-        flex-direction: column;
-    } */
-}
-@media (min-width: 576px) {
     .container {
         display: block;
     }
@@ -40,11 +32,60 @@
     }
 }
 @media (min-width: 768px) {	
-	
+    .main {
+        display: block;
+    }
+    .main__head-section {
+        justify-content: space-evenly;
+    }
+    .main-coffee-image {
+        width: 30rem;
+        height: 30rem;
+    }
 }
 @media (min-width: 992px) {
-	
+    .nav__logo-section {
+        justify-content: flex-start;
+    }
+    .app-logo__subname {
+        margin-right: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .left-head-section__menu-btn {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+	.main__head-section {
+        justify-content: space-around;
+    }
+    .main-coffee-image {
+        width: 39rem;
+        height: 39rem;
+    }
+    .left-head-section__head-title {
+        font-size: 3.7rem;
+    }
+    .left-head-section__cafe {
+        font-size: 5.5rem;
+    }
 }
-@media (min-width: 1400px) {
-	
+@media (min-width: 1200px) {
+	.main-coffee-image {
+        width: 42rem;
+        height: 42rem;
+        margin-left: 10rem;
+    }
+    .left-head-section__head-title {
+        font-size: 4.5rem;
+    }
+    .left-head-section__cafe {
+        font-size: 6.3rem;
+    }
+    .left-head-section__menu-btn {
+        font-size: 2.3rem;
+    }
+    .category-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
 }
