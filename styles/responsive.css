@@ -1,12 +1,4 @@
 @media (min-width: 576px) {
-    /* .header {
-        display: flex;
-    }
-    .main {
-        flex-direction: column;
-    } */
-}
-@media (min-width: 576px) {
     .container {
         display: block;
     }
@@ -38,13 +30,143 @@
     .main-coffee-image {
         margin-left: 0rem;
     }
+    .foot-section__contact-btn {
+        margin-right: 20rem;
+    }
+}
+@media (min-width: 690px) {
+    .left-mid-section__product {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .foot-section__contact-btn {
+        margin-right: 30rem;
+    }
 }
 @media (min-width: 768px) {	
-	
+    .main {
+        display: block;
+    }
+    .main__head-section {
+        justify-content: space-evenly;
+        margin-bottom: -7rem;
+    }
+    .main-coffee-image {
+        width: 30rem;
+        height: 30rem;
+    }
+    .right-mid-section {
+        margin-top: 8rem;
+    }
+    .left-mid-section {
+        width: 60rem;
+        justify-content: space-between;
+    }
+    .left-mid-section__product {
+        margin-top: 7rem;
+    }
+    .foot-section__contact-btn {
+        position: absolute;
+        left: 6rem;
+        bottom: 49rem;
+    }
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;   
+    }
 }
 @media (min-width: 992px) {
-	
+    .nav__logo-section {
+        justify-content: flex-start;
+    }
+    .app-logo__subname {
+        margin-right: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .left-head-section__menu-btn {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+	.main__head-section {
+        justify-content: space-around;
+        margin-bottom: 0rem;
+    }
+    .main-coffee-image {
+        width: 39rem;
+        height: 39rem;
+    }
+    .left-head-section__head-title {
+        font-size: 3.7rem;
+    }
+    .left-head-section__cafe {
+        font-size: 5.5rem;
+    }
+    .main__mid-section {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .mid-section__product-groups {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-top: 10rem;
+        width: 94rem;
+        justify-content: space-evenly;
+    }
+    .left-mid-section {
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: -5rem;
+    }
+    .right-mid-section {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .foot-section__contact-btn {
+        bottom: 47rem;
+    }
+    .foot-section__description {
+        width: 80rem;
+    }
+    .footer {
+        justify-content: space-around;  
+        margin-top: 10rem; 
+    }
 }
-@media (min-width: 1400px) {
-	
+@media (min-width: 1200px) {
+	.main-coffee-image {
+        width: 42rem;
+        height: 42rem;
+        margin-left: 10rem;
+    }
+    .left-head-section__head-title {
+        font-size: 4.5rem;
+    }
+    .left-head-section__cafe {
+        font-size: 6.3rem;
+    }
+    .left-head-section__menu-btn {
+        font-size: 2.3rem;
+    }
+    .category-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .mid-section__product-groups {
+        width: 100rem;
+        justify-content: space-around;
+    }
+    .foot-section__description {
+        width: 95rem;
+    }
+    .foot-section__contact-btn {
+        bottom: 45rem;
+    }
+    .footer {
+        justify-content: space-evenly;   
+    }
 }
