@@ -138,6 +138,10 @@
     }
 }
 @media (min-width: 1200px) {
+    .main__head-section {
+        justify-content: space-between;
+        margin-right: 15rem;
+    }
 	.main-coffee-image {
         width: 42rem;
         height: 42rem;
