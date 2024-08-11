@@ -58,6 +58,12 @@
     .right-mid-section {
         margin-top: 8rem;
     }
+    .right-mid-section__title {
+        font-size: 2.9rem;
+    }
+    .right-mid-section__description {
+        font-size: 1.85rem;
+    }
     .left-mid-section {
         width: 60rem;
         justify-content: space-between;
@@ -126,6 +132,12 @@
         flex-direction: column;
         margin-right: 0;
     }
+    .right-mid-section__title {
+        font-size: 3rem;
+    }
+    .right-mid-section__description {
+        font-size: 2rem;
+    }
     .foot-section__contact-btn {
         bottom: 47rem;
     }
@@ -161,7 +173,7 @@
         height: 4.5rem;
     }
     .mid-section__product-groups {
-        width: 100rem;
+        width: 117rem;
         justify-content: space-around;
     }
     .foot-section__description {

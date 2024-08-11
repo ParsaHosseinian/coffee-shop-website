@@ -255,6 +255,7 @@ Main - mid section
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 2rem;
 }
 .right-mid-section {
     width: 26rem;
@@ -449,11 +450,11 @@ Footer
     margin-top: 2rem;
 }
 .footer__ulist-titles {
-    font-size: 2.4rem;
+    font-size: 2.9rem;
 }
 .footer__ulist {
     opacity: 0.8;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 .our-company__list-item {
 
