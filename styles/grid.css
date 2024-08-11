@@ -6,8 +6,8 @@ Container
 .container {
     width: 86%;
     height:100%;
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
     margin-top: 5.2rem;
     margin-right: auto;
     margin-left: auto;
@@ -20,20 +20,5 @@ Container
     backdrop-filter: blur( 1.15rem );
     -webkit-backdrop-filter: blur( 1.15rem );
     border-radius: 3rem;
-    border: 0.1rem solid rgba( 255, 255, 255, 0.18 );
-   
-}
-
-
-@media (min-width: 576px) {
-    
-}
-@media (min-width: 768px) {	
-	
-}
-@media (min-width: 992px) {
-	
-}
-@media (min-width: 1400px) {
-	
+    border: 0.1rem solid rgba( 255, 255, 255, 0.18 );  
 }
